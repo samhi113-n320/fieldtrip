@@ -22,8 +22,8 @@ https://eiteljorg.org/ - I mean, why wouldn't I? The home of these pieces should
 Would also use the in-person gallery as guidance, likely making the site dark, which helps emphasize the bright, vibrant colors of the pieces.
 
 #### Describe your data structure with rationale.
-Tables: item, gallery, galleryItem (to break down M:M table)
-Connections:
-Business Sense: Each item can belong in many galleries, depending on if it fits multiple themes/stories.
-item -> galleryItem  -  one : many  -  This allows one item's information to be inserted into multiple galleries.
-gallery -> galleryItem  -  one : many - This allows one gallery to house multiple items.
+- Tables: item, gallery, galleryItem (to break down M:M table)
+- Connections:
+  - Business Sense: Each item can belong in many galleries, depending on if it fits multiple themes/stories.
+  - item -> galleryItem  -  one : many  -  This allows one item's information to be inserted into multiple galleries.
+  - gallery -> galleryItem  -  one : many - This allows one gallery to house multiple items.
